@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-list.component.css']
 })
 export class CategoryListComponent implements OnInit {
+alert(arg0: string) {
+throw new Error('Method not implemented.');
+}
 
   constructor() { }
 
